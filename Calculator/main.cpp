@@ -8,8 +8,19 @@
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+int numberOne;
+int numberTwo;
+int result;
+
+int main() {
+   
+    std:: cout << "THIS IS SIMPLE MATH: \n";
+    std:: cout << "Dodaj pierwszą liczbę: ";
+    std:: cin >> numberOne;
+    std:: cout << "Podaj drugą liczbę: ";
+    std:: cin >> numberTwo;
+    
+    result = numberOne + numberTwo;
+    return result;
+    
 }
